@@ -1,4 +1,4 @@
-# LİNUX TERMİNAL KOMUTLARI
+# Linux Konsol Komutları
 
 Bu projede, Linux işletim sisteminde sık kullanılan 20 komut ve işlevleri ele alınmıştır.
 
