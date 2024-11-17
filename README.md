@@ -1,52 +1,55 @@
 # Linux Konsol Komutları
 
-Bu projede, Linux işletim sisteminde sık kullanılan 20 komut ve işlevleri ele alınmıştır.
+Bu projede, Linux işletim sisteminde sık kullanılan 20 komut ve işlevleri detaylı bir şekilde açıklanmıştır. Linux terminali, sistem yönetimi, dosya yönetimi ve ağ bağlantıları gibi işlemleri gerçekleştirmek için güçlü bir araçtır. Komut satırı üzerinden yapılan bu işlemler, kullanıcıların daha verimli çalışmasını sağlar. Proje, bu komutları öğrenerek Linux sistemini daha etkili kullanmak isteyenlere yardımcı olmayı amaçlamaktadır.
 
-### CD Komutu
+### cd Komutu
 Bu komut, bir klasöre geçmek için kullanılır.<br>
->Kullanım : cd  <Klasör_Adı>
+>Kullanım : `cd  <klasör_adı>`
 
 `cd`
 
 ![image](https://github.com/user-attachments/assets/cf2cdcb5-e1f7-430b-80c0-e95dfe809538)
 >[!WARNING]
->Klasör adı yazarken adını hatasız ve büyük harf küçük harf uyumuna dikkat ediniz!
+>Klasör adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 
 #
 
-### DİR Komutu
+### dir Komutu
 Bu komut, terminalin bulunduğu konumdaki dosyanın içindeki öğeleri listeler.<br>
->Kullanım : dir <Klasör_Adı>
+>Kullanım : `dir <klasör_adı>`
 
 `dir`
 
 ![image](https://github.com/user-attachments/assets/6ff0b3d6-6de1-4839-a84b-eed34990c081)
-
+>[!WARNING]
+>Klasör adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### MKDİR Komutu
+### mkdir Komutu
 Bu komut, klasör içerisinde yeni bir klasör oluşturmak için kullanılır.<br>
->Kullanım : mkdir <Klasör_Adı>
+>Kullanım : `mkdir <klasör_adı>`
 
 `mkdir`
 
 ![image](https://github.com/user-attachments/assets/6e719fa8-b280-4b7a-a5ab-67ceb5901101)
-
+>[!WARNING]
+>Klasör adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### TOUCH Komutu 
+### touch Komutu 
 Bu komut, yeni bir belge oluşturmak için kullanılır.<br>
->Kullanım : touch <belge_adı>
+>Kullanım : `touch <belge_adı>`
 
 `touch`
 
 ![image](https://github.com/user-attachments/assets/b76bd981-6d30-4a07-8b3d-7b7b676fcc86)
-
+>[!WARNING]
+>Belge adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### ECHO Komutu
+### echo Komutu
 Bu komut, belgenin içerisine yazı yazmaya yarar.<br>
->Kullanım : echo <yazı> > <dosya_adı>
+>Kullanım : `echo <yazı> > <dosya_adı>`
 
 `echo`
 
@@ -59,49 +62,54 @@ Bu komut, belgenin içerisine yazı yazmaya yarar.<br>
 
 #
 
-### REMOVE Komutu
+### remove Komutu
 Bu komut, silme işlemi yapmak için kullanılır.<br>
->Kullanım : rm <dosya_adı>
+>Kullanım : `rm <dosya_adı>`
 
 `rm`
 
 ![image](https://github.com/user-attachments/assets/89af8ea6-3152-4567-9527-66783970c1b9)
-
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### MOVE Komutu
+### move Komutu
 Bu komut, belgenin veya klasörün adını değiştirmeye yarar.<br>
->Kullanım : mv <dosya_adı> <yeni_dosya_adı>
+>Kullanım : `mv <dosya_adı> <yeni_dosya_adı>`
 
 `mv`
 
 ![image](https://github.com/user-attachments/assets/be1f3a67-fe2c-4c84-b778-53150506af11)
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 
 #
 
-### COPY Komutu
+### copy Komutu
 Bu komut, dosya veya dizin kopyalamaya yarar.<br>
->Kullanım : cp <dosya_adı> <dosya_adı>
+>Kullanım : `cp <dosya_adı> <dosya_adı>`
 
 `cp`
 
 ![image](https://github.com/user-attachments/assets/1c2efff5-9594-4445-8537-e6f8f77be0a0)
-
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### CAT Komutu
+### cat Komutu
 Bu komut, dosyanın içeriğini terminalde gösterir.<br>
->Kullanım : cat <dosya_adı>
+>Kullanım : `cat <dosya_adı>`
 
 `cat`
 
 ![image](https://github.com/user-attachments/assets/e029f383-ef24-4270-82d7-5f350ac7608e)
-
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### DF Komutu
+### df Komutu
 Bu komut, disk kullanımını gösterir.<br>
->Kullanım : df
+>Kullanım : `df`
 
 `df`
 
@@ -109,9 +117,9 @@ Bu komut, disk kullanımını gösterir.<br>
 
 #
 
-### HISTORY Komutu
+### history Komutu
 Bu komut, linuxta kullanılan bütün komutların hepsini listelemeye yarar.<br>
->Kullanım : history
+>Kullanım : `history`
 
 `history`
 
@@ -126,19 +134,20 @@ Bu komut, linuxta kullanılan bütün komutların hepsini listelemeye yarar.<br>
 
 #
 
-### PİNG Komutu
+### ping Komutu
 Bu komut, bir internet sitesinin ağ bağlantısını test etmeye yarar.<br>
->Kullanım : <ping www.youtube.com>
+>Kullanım : `ping <www.youtube.com>`
 
 `ping`
 
 ![image](https://github.com/user-attachments/assets/3d8df195-e322-4f4f-82bd-fe1e742e0709)
-
+>[!WARNING]
+>Linki yazarken hatasız ve büyük harf küçük harf uyumuna dikkat ediniz!
 #
 
-### İFCONFİG Komutu 
+### ifconfig Komutu 
 Bu komut bir komut, ağ arayüzlerini ve bağlantı bilgilerini göstermeye yarar.<br>
->Kullanım : ifconfig
+>Kullanım : `ifconfig`
 
 `ifconfig`
 
@@ -146,9 +155,9 @@ Bu komut bir komut, ağ arayüzlerini ve bağlantı bilgilerini göstermeye yara
 
 #
 
-### SUDO Komutu
+### sudo Komutu
 Bu komut, bir işlemde kök ayrıcalıkları kullanmak veya idari bir erişim sağlamak için kullanılabilir.<br>
->Kullanım : sudo <apt update>
+>Kullanım : `sudo <apt update>`
 
 `sudo`
 
@@ -159,19 +168,20 @@ Bu komut, bir işlemde kök ayrıcalıkları kullanmak veya idari bir erişim sa
 
 #
 
-### FİND Komutu
+### find Komutu
 Bu komut, belirli bir dosya veya dizini aramak için kullanılır.<br>
->Kullanım : find /home -name "<dosya_adı>"
+>Kullanım : `find /home -name "<dosya_adı>"`
 
 `find /home -name`
 
 ![image](https://github.com/user-attachments/assets/6ca11fb4-0232-4061-bbbd-6387c091b0ba)
-
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### UNAME Komutu
+### uname Komutu
 Bu komut, işlemci mimarisini göstermek için kullanılır.<br>
->Kullanım : uname -m
+>Kullanım : `uname -m`
 
 `uname -m`
 
@@ -179,9 +189,9 @@ Bu komut, işlemci mimarisini göstermek için kullanılır.<br>
 
 #
 
-### FREE Komutu
+### free Komutu
 Bu komut sistem belleği kullanım durumunu görüntülemek için kullanılır.<br>
->Kullanım : free
+>Kullanım : `free`
 
 `free`
 
@@ -189,9 +199,9 @@ Bu komut sistem belleği kullanım durumunu görüntülemek için kullanılır.<
 
 #
 
-### CLEAR Komutu
+### clear Komutu
 Bu komut terminalde yazılan kodları temizlemeye yarar.<br>
->Kullanım : clear
+>Kullanım : `clear`
 
 `clear`
 
@@ -204,22 +214,25 @@ Bu komut terminalde yazılan kodları temizlemeye yarar.<br>
 
 #
 
-### GREP Komutu
+### grep Komutu
 Bu komut, dosyalar içinde metin arar.<br>
->Kullanım : grep <"metin"> <dosya_adı>
+>Kullanım : `grep <"metin"> <dosya_adı>`
 
 `grep`
 
 ![image](https://github.com/user-attachments/assets/e471514b-4685-4f1e-af13-04b8a501046e)
-
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 #
 
-### ZİP Komutu
+### zip Komutu
 Bu komut, dosya veya dizinleri sıkıştırmaya yarar.<br>
->Kullanım : zip <dosya_adı.zip> <dosya_adı>
+>Kullanım : `zip <dosya_adı.zip> <dosya_adı>`
 
 `zip`
 
 ![image](https://github.com/user-attachments/assets/4d4f5ca3-a9fa-432c-a541-664bd4a4258a)
+>[!WARNING]
+>Dosya adlarını doğru yazın ve büyük-küçük harf uyumuna dikkat edin!
 
 #
